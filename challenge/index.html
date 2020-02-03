@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
-
+    <!--- NAVBAR -->
     <header class="navbar">
         <nav class="navbar-navigation">
             <div class="navbar-toggle-button">
@@ -21,75 +21,106 @@
                 </ul>
             </div>
         </nav>
-  </header>
-
-    <div class="container">
-        <!-- Rick and Morty Image -->
-        <div class="image-container">
-            <h2> Rick and Morty </h2>
-            <img src="./images/rickmorty.jpg" alt="Rick and Morty" >
-            <h3 class="img-text">Run Morty Run!</h3>
-        </div>
-        <!-- End Rick and Morty Image -->
-
-        <div class="row">
-            <div class="column">
-                <img src="./images/tenor.png" alt="">
-            <div class="column">
-                <h2>Text text </h2>
-            </div>
-        </div>
-
-
-
-        <!-- Table -->
+    </header>
+    <!--- END NAVBAR -->
+    <!-- Page-Wrapper -->
+    <div class="page-wrapper">
         <div class="container">
-            <table class="table">
-                <tr class="top-row">
-                    <th>Name</th>
-                    <th>Relantionship</th>
-                    <th>Intelligence</th>
-                    <th>Favorite</th>
-                </tr>
-                <tr>
-                    <td>Rick Sanchez</td>
-                    <td>Grandfather</td>
-                    <td>Genius</td>
-                    <td>Love em</td>
-                </tr>
-                <tr>
-                    <td>Morty Smith</td>
-                    <td>Son</td>
-                    <td>Unintelligent</td>
+            <!-- Rick and Morty Image -->
+            <div class="image-container">
+                <h2> Rick and Morty </h2>
+                <img src="./images/rickmorty.jpg" alt="Rick and Morty" >
+                <h3 class="img-text">Run Morty Run!</h3>
+            </div>
+            <!-- End Rick and Morty Image -->
+            <!-- TWO COLUMN -->
+            <div class="two-col-container">
+                <div class="row">
+                    <div class="column">
+                        <div class="morty-col">
+                            <div class="morty-container">
+                                <img src="./images/tenor.png" alt="Morty" class="morty-image">
+                            
+                                <div class="middle">  
+                                    <div class="text">
+                                        <a href="https://youtu.be/s_1lP4CBKOg"><h3>Check it out</h3></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="info-col">
+                            <div class="text-box">
+                                <h2> Rick & Morty</h2>
+                                <p>Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's late-night programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures.</p>
+                                <p>Roiland voices the eponymous characters, with Chris Parnell, Spencer Grammer and Sarah Chalke voicing the rest of the family. The series originated from an animated short parody film of Back to the Future, created by Roiland for Channel 101, a short film festival co-founded by Harmon. The series has been acclaimed by critics for its originality, creativity and humor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TWO COLUMN -->
+            <!-- Table -->
+            <div class="container">
+                <table class="table">
+                    <tr class="top-row">
+                        <th>Name</th>
+                        <th>Relantionship</th>
+                        <th>Intelligence</th>
+                        <th>Favorite</th>
+                    </tr>
+                    <tr>
+                        <td>Rick Sanchez</td>
+                        <td>Grandfather</td>
+                        <td>Genius</td>
+                        <td>Love em</td>
+                    </tr>
+                    <tr>
+                        <td>Morty Smith</td>
+                        <td>Son</td>
+                        <td>Unintelligent</td>
                     <td>My favorite </td>
-                </tr>
-                <tr>
-                    <td>Summer Smith</td>
-                    <td>Daughter</td>
-                    <td>Brillant</td>
-                    <td>Like her</td>
-                </tr>
-                <tr>
-                    <td>Beth Smith</td>
-                    <td>Mother</td>
-                    <td>Smart</td>
-                    <td>Pretty cool</td>
-                </tr>
-                 <tr>
-                    <td>Jerry Smith</td>
-                    <td>Father</td>
-                    <td>Dumb</td>
-                    <td>Annoying</td>
-                </tr>
-            </table>
+                    </tr>
+                    <tr>
+                        <td>Summer Smith</td>
+                        <td>Daughter</td>
+                        <td>Brillant</td>
+                        <td>Like her</td>
+                    </tr>
+                    <tr>
+                        <td>Beth Smith</td>
+                        <td>Mother</td>
+                        <td>Smart</td>
+                        <td>Pretty cool</td>
+                    </tr>
+                    <tr>
+                        <td>Jerry Smith</td>
+                        <td>Father</td>
+                        <td>Dumb</td>
+                        <td>Annoying</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Table -->
+            <!--- Video -->
+            <div class="vid-box">
+                <video  autoplay muted loop controls>
+                    <source src="./videos/index.mp4" type="video/mp4">
+                </video>
+                <div class="overlay-rick">
+                    <h1>Where is Rick?</h1>
+                </div>
+            </div>
+            <!--- End Video -->
         </div>
-        <!-- Table -->
-       
+        <!-- END CONTAINER -->
         <!-- Footer -->
         <footer class="footer">
-            <p>HobbseDev &copy; 2020</p>
+                <p>HobbseDev &copy; 2020</p>
         </footer>
         <!-- End Footer -->
     </div>
+    <!-- END Page-Wrapper-->
     </body>
 </html>
